@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="algorithms" Database="" Version="10.0.0">
+  <Project Name="gaussian" Path="gaussian/gaussian.project" Active="No"/>
+  <Project Name="measument_update" Path="measument_update/measument_update.project" Active="No"/>
+  <Project Name="state_prediction" Path="state_prediction/state_prediction.project" Active="No"/>
+  <Project Name="1DKF" Path="1DKF/1DKF.project" Active="No"/>
+  <Project Name="MDKF" Path="MDKF/MDKF.project" Active="No"/>
+  <Project Name="robotstatebaysian" Path="robotstatebaysian/robotstatebaysian.project" Active="No"/>
+  <Project Name="RobotClass" Path="RobotClass/RobotClass.project" Active="No"/>
+  <Project Name="probability_weight" Path="probability_weight/probability_weight.project" Active="No"/>
+  <Project Name="Kalman4D" Path="Kalman4D/Kalman4D.project" Active="No"/>
+  <Project Name="UniformDistribution" Path="UniformDistribution/UniformDistribution.project" Active="No"/>
+  <Project Name="2Dlocalization" Path="2Dlocalization/2Dlocalization.project" Active="No"/>
+  <Project Name="particalfilter" Path="particalfilter/particalfilter.project" Active="No"/>
+  <Project Name="SearchGrid" Path="SearchGrid/SearchGrid.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="gaussian" ConfigName="Debug"/>
+      <Project Name="measument_update" ConfigName="Debug"/>
+      <Project Name="state_prediction" ConfigName="Debug"/>
+      <Project Name="1DKF" ConfigName="Debug"/>
+      <Project Name="MDKF" ConfigName="Debug"/>
+      <Project Name="robotstatebaysian" ConfigName="Debug"/>
+      <Project Name="RobotClass" ConfigName="Debug"/>
+      <Project Name="probability_weight" ConfigName="Debug"/>
+      <Project Name="Kalman4D" ConfigName="Debug"/>
+      <Project Name="UniformDistribution" ConfigName="Debug"/>
+      <Project Name="2Dlocalization" ConfigName="Debug"/>
+      <Project Name="particalfilter" ConfigName="Debug"/>
+      <Project Name="SearchGrid" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="gaussian" ConfigName="Release"/>
+      <Project Name="measument_update" ConfigName="Release"/>
+      <Project Name="state_prediction" ConfigName="Release"/>
+      <Project Name="1DKF" ConfigName="Release"/>
+      <Project Name="MDKF" ConfigName="Release"/>
+      <Project Name="robotstatebaysian" ConfigName="Release"/>
+      <Project Name="RobotClass" ConfigName="Release"/>
+      <Project Name="probability_weight" ConfigName="Release"/>
+      <Project Name="Kalman4D" ConfigName="Release"/>
+      <Project Name="UniformDistribution" ConfigName="Release"/>
+      <Project Name="2Dlocalization" ConfigName="Release"/>
+      <Project Name="particalfilter" ConfigName="Release"/>
+      <Project Name="SearchGrid" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
