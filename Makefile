@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ OccupacyGridMapping - Debug ]----------"
-	@cd "OccupacyGridMapping" && "$(MAKE)" -f  "OccupacyGridMapping.mk"
+	@echo "----------Building project:[ AStar - Debug ]----------"
+	@cd "AStar" && "$(MAKE)" -f  "AStar.mk"
 clean:
-	@echo "----------Cleaning project:[ OccupacyGridMapping - Debug ]----------"
-	@cd "OccupacyGridMapping" && "$(MAKE)" -f  "OccupacyGridMapping.mk" clean
+	@echo "----------Cleaning project:[ AStar - Debug ]----------"
+	@cd "AStar" && "$(MAKE)" -f  "AStar.mk" clean

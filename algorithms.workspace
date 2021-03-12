@@ -13,7 +13,9 @@
   <Project Name="2Dlocalization" Path="2Dlocalization/2Dlocalization.project" Active="No"/>
   <Project Name="particalfilter" Path="particalfilter/particalfilter.project" Active="No"/>
   <Project Name="SearchGrid" Path="SearchGrid/SearchGrid.project" Active="No"/>
-  <Project Name="OccupacyGridMapping" Path="OccupacyGridMapping/OccupacyGridMapping.project" Active="Yes"/>
+  <Project Name="OccupacyGridMapping" Path="OccupacyGridMapping/OccupacyGridMapping.project" Active="No"/>
+  <Project Name="SensorFusion" Path="SensorFusion/SensorFusion.project" Active="No"/>
+  <Project Name="AStar" Path="AStar/AStar.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +33,8 @@
       <Project Name="particalfilter" ConfigName="Debug"/>
       <Project Name="SearchGrid" ConfigName="Debug"/>
       <Project Name="OccupacyGridMapping" ConfigName="Debug"/>
+      <Project Name="SensorFusion" ConfigName="Debug"/>
+      <Project Name="AStar" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +52,8 @@
       <Project Name="particalfilter" ConfigName="Release"/>
       <Project Name="SearchGrid" ConfigName="Release"/>
       <Project Name="OccupacyGridMapping" ConfigName="Release"/>
+      <Project Name="SensorFusion" ConfigName="Release"/>
+      <Project Name="AStar" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
