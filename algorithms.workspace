@@ -15,7 +15,16 @@
   <Project Name="SearchGrid" Path="SearchGrid/SearchGrid.project" Active="No"/>
   <Project Name="OccupacyGridMapping" Path="OccupacyGridMapping/OccupacyGridMapping.project" Active="No"/>
   <Project Name="SensorFusion" Path="SensorFusion/SensorFusion.project" Active="No"/>
-  <Project Name="AStar" Path="AStar/AStar.project" Active="Yes"/>
+  <Project Name="AStar" Path="AStar/AStar.project" Active="No"/>
+  <Project Name="DynamicProgram" Path="DynamicProgram/DynamicProgram.project" Active="No"/>
+  <Project Name="FK" Path="FK/FK.project" Active="No"/>
+  <Project Name="LeftTurnGrid" Path="LeftTurnGrid/LeftTurnGrid.project" Active="Yes"/>
+  <Project Name="r2000ic165F_FK" Path="r2000ic165F_FK/r2000ic165F_FK.project" Active="No"/>
+  <Project Name="KR210R2700ex_FK" Path="KR210R2700ex_FK/KR210R2700ex_FK.project" Active="No"/>
+  <Project Name="MinkowskiSum" Path="MinkowskiSum/MinkowskiSum.project" Active="No"/>
+  <Project Name="BFSClass" Path="GridClass/GridClass.project" Active="No"/>
+  <Project Name="AStarClass" Path="AStarClass/AStarClass.project" Active="No"/>
+  <Project Name="AstarRealWorld" Path="AstarRealWorld/AstarRealWorld.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -35,6 +44,15 @@
       <Project Name="OccupacyGridMapping" ConfigName="Debug"/>
       <Project Name="SensorFusion" ConfigName="Debug"/>
       <Project Name="AStar" ConfigName="Debug"/>
+      <Project Name="DynamicProgram" ConfigName="Debug"/>
+      <Project Name="FK" ConfigName="Debug"/>
+      <Project Name="LeftTurnGrid" ConfigName="Debug"/>
+      <Project Name="r2000ic165F_FK" ConfigName="Debug"/>
+      <Project Name="KR210R2700ex_FK" ConfigName="Debug"/>
+      <Project Name="MinkowskiSum" ConfigName="Debug"/>
+      <Project Name="BFSClass" ConfigName="Debug"/>
+      <Project Name="AStarClass" ConfigName="Debug"/>
+      <Project Name="AstarRealWorld" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -54,6 +72,15 @@
       <Project Name="OccupacyGridMapping" ConfigName="Release"/>
       <Project Name="SensorFusion" ConfigName="Release"/>
       <Project Name="AStar" ConfigName="Release"/>
+      <Project Name="DynamicProgram" ConfigName="Release"/>
+      <Project Name="FK" ConfigName="Release"/>
+      <Project Name="LeftTurnGrid" ConfigName="Release"/>
+      <Project Name="r2000ic165F_FK" ConfigName="Release"/>
+      <Project Name="KR210R2700ex_FK" ConfigName="Release"/>
+      <Project Name="MinkowskiSum" ConfigName="Release"/>
+      <Project Name="BFSClass" ConfigName="Release"/>
+      <Project Name="AStarClass" ConfigName="Release"/>
+      <Project Name="AstarRealWorld" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

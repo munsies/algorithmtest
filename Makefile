@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ AStar - Debug ]----------"
-	@cd "AStar" && "$(MAKE)" -f  "AStar.mk"
+	@echo "----------Building project:[ LeftTurnGrid - Debug ]----------"
+	@cd "LeftTurnGrid" && "$(MAKE)" -f  "LeftTurnGrid.mk"
 clean:
-	@echo "----------Cleaning project:[ AStar - Debug ]----------"
-	@cd "AStar" && "$(MAKE)" -f  "AStar.mk" clean
+	@echo "----------Cleaning project:[ LeftTurnGrid - Debug ]----------"
+	@cd "LeftTurnGrid" && "$(MAKE)" -f  "LeftTurnGrid.mk" clean
